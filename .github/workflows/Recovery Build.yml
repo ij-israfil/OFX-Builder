@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/realme/RMX1901'
+        default: 'device/realme/realme_sdm710'
 
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
@@ -37,7 +37,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_RMX1901'
+        default: 'twrp_realme_sdm710'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
